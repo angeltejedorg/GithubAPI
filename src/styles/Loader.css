@@ -1,0 +1,28 @@
+.loader-container {
+    margin-top: 150px;
+}
+
+.loader-container p {
+    font-family: 'Poppins', sans-serif;
+    color: #4650DD;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.loader {
+    margin: auto;
+    border: 16px solid rgb(151, 155, 160); /* Light grey */
+    border-top: 16px solid #4650DD; /* Blue */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

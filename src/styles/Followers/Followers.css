@@ -1,0 +1,23 @@
+.main-section {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+@media (max-width: 769px){
+    .main-section{
+        justify-content: center;
+    }
+
+}
